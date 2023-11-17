@@ -1,43 +1,30 @@
-# Denial of Service (DoS) Attack Educational Repository
+# Network Simulator (ns-2) Traffic Simulation
 
-## What is a DoS Attack?
+## Overview
 
-A Denial of Service (DoS) attack is a malicious attempt to disrupt the normal functioning of a targeted server, service, or network by overwhelming it with a flood of illegitimate requests or traffic. The primary goal of a DoS attack is to make a system or network unavailable to its intended users, causing a denial of service.
+This repository contains scripts for simulating network traffic using Network Simulator (ns-2). The provided code sets up a simulation environment to study network behavior and application interactions within a controlled environment.
 
-## Types of DoS Attacks
+## Purpose
 
-- **Flooding Attacks:**
-  - Ping Flood
-  - SYN/ACK Flood
-  - UDP Flood
+The primary purpose of this repository is to serve as an educational resource for learning about network simulations, traffic modeling, and application interactions in a simulated environment.
 
-- **Application Layer Attacks:**
-  - HTTP/S Request Flood
-  - Slowloris
+## Simulation Features
 
-- **Distributed Denial of Service (DDoS) Attacks:**
-  - Botnets
-
-## Why DoS Attacks Occur?
-
-1. **Political or Ideological Motivations**
-2. **Competitive Advantage**
-3. **Extortion**
-4. **Hacktivism**
-
-## Warning Message (for Educational Purposes):
-
-**Note: The code provided in this repository is intended solely for educational purposes. Unauthorized use of this code for any malicious or illegal activities, including but not limited to DoS attacks, is strictly prohibited. The author of this code is not responsible for any misuse or damage caused by its implementation. Please ensure that you adhere to ethical and legal standards in your use of this educational material.**
-
-Remember, it's essential to use your knowledge of cybersecurity and programming for ethical and legal purposes, and to contribute positively to the security of computer systems and networks.
+- Node creation
+- Connection establishment
+- Traffic generation using FTP and CBR applications
 
 ## Disclaimer
 
-This repository serves as an educational resource only. The provided information and code are not intended for use in any form of malicious activity. Always prioritize ethical and legal standards in your learning and usage of cybersecurity-related content.
+**Note: The code provided in this repository is intended solely for educational purposes. It does not perform any form of malicious activity, including Denial of Service (DoS) attacks. Unauthorized use of code for malicious or illegal activities is strictly prohibited. The author of this code is not responsible for any misuse or damage caused by its implementation. Always adhere to ethical and legal standards in your use of this educational material.**
 
+## Usage
 
+1. Clone the repository: `git clone https://github.com/your-username/ns-2-traffic-simulation.git`
+2. Navigate to the project directory: `cd ns-2-traffic-simulation`
+3. Run the simulation script: `ns dos.tcl`
 
+## Contributing
 
-
-
+Contributions to enhance the educational value of this repository are welcome. If you find any issues or have suggestions, feel free to open an issue or create a pull request.
 
